@@ -5510,19 +5510,7 @@ function init() {
     `mdui-theme-primary-${UI.main_color} mdui-theme-accent-${UI.accent_color}`
   );
   var html = `
-<header class="nexmoe-nav">
-	<div class="navSize">
-			<a href="/"><img class="avatar" src="${UI.avatar}"/></a>
-			<div class="nav_menu"  style="display:${
-        UI.disable_navicon == true ? "none" : "block"
-      }">
-				<ul class="menu_ul">
-					<li class="menu_li"><a href="https://telegram.dog/cheems" target="_blank">Contact</a></li>
-					<li class="menu_li"><a href="https://github.com/cheems/Google-Drive-Index-III" target="_blank">Github</a></li>
-				</ul>
-				<div class="nav_icon" ></div>
-			</div>
-	</div>
+<header>
 </header>
 <div class="mdui-container">
 	<div class="mdui-container-fluid">
