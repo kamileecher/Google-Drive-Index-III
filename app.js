@@ -5510,8 +5510,6 @@ function init() {
     `mdui-theme-primary-${UI.main_color} mdui-theme-accent-${UI.accent_color}`
   );
   var html = `
-<header>
-</header>
 <div class="mdui-container">
 	<div class="mdui-container-fluid">
 		<div id="nav" class="mdui-toolbar nexmoe-item nav-style"> </div>
