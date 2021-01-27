@@ -5501,7 +5501,7 @@ document.write(
 );
 if (UI.dark_mode) {
   document.write(
-    `<style>* {box-sizing: border-box}body{color:rgba(255,255,255,.87);background-color:#333232}.mdui-theme-primary-${UI.main_color} .mdui-color-theme{background-color:#26393F!important} .nexmoe-item{background-color: #1F3339!important;box-shadow:0 0.2em 1em rgb(0 0 0 / 30%)!important}</style>`
+    `<style>* {box-sizing: border-box}body{color:rgba(255,255,255,.87);background-color:#1F3339}.mdui-theme-primary-${UI.main_color} .mdui-color-theme{background-color:#26393F!important} .nexmoe-item{background-color: #1F3339!important;box-shadow:0 0.2em 1em rgb(0 0 0 / 30%)!important}</style>`
   );
 }
 function init() {
