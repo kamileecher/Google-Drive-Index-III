@@ -5482,7 +5482,7 @@ document.write(
   '<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/cheems/Google-Drive-Index-III@1.0.0/css/mdui_v2.min.css">'
 );
 document.write(
-  '<link rel="stylesheet" href="//cdn.jsdelivr.net/gh/cheems/Google-Drive-Index-III@1.0.0/css/nexmoe_v2.min.css">'
+  '<link rel="stylesheet" href="//rawcdn.githack.com/cheems/Google-Drive-Index-III/8e7b3fc014e4306a184dd6e7ab0a414c7567dfd1/css/nexmoe_v2.min.css">'
 );
 document.write(
   '<script src="//cdn.jsdelivr.net/gh/cheems/Google-Drive-Index-III@1.0.0/js/mdui.min.js"></script>'
