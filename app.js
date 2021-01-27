@@ -5501,7 +5501,7 @@ document.write(
 );
 if (UI.dark_mode) {
   document.write(
-    `<style>* {box-sizing: border-box}body{color:rgba(255,255,255,.87);background-color:#333232}.mdui-theme-primary-${UI.main_color} .mdui-color-theme{background-color:#232427!important}</style>`
+    `<style>* {box-sizing: border-box}body{color:rgba(255,255,255,.87);background-color:#333232}.mdui-theme-primary-${UI.main_color} .mdui-color-theme{background-color:#333232!important} .nexmoe-item{background-color: #333232!important}</style>`
   );
 }
 function init() {
