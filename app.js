@@ -5592,9 +5592,6 @@ function nav(path) {
   var search_text = model.is_search_page ? model.q || "" : "";
   const isMobile = Os.isMobile;
   var search_bar = `<div class="mdui-toolbar-spacer"></div>
-        <button class="mdui-textfield-icon mdui-btn mdui-btn-icon" onclick="if($('#search_bar').hasClass('mdui-textfield-expanded') && $('#search_bar_form>input').val()) $('#search_bar_form').submit();">
-          <i class="mdui-icon material-icons">info_outline</i>
-        </button>
         <div id="search_bar" class="mdui-textfield mdui-textfield-expandable mdui-float-right ${
           model.is_search_page ? "mdui-textfield-expanded" : ""
         }" style="max-width:${isMobile ? 300 : 400}px">
@@ -5605,7 +5602,10 @@ function nav(path) {
             <input class="mdui-textfield-input" type="text" name="q" placeholder="Search in current drive" value="${search_text}"/>
             </form>
             <button class="mdui-textfield-close mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">close</i></button>
-        </div>`;
+        </div>
+        <button class="mdui-textfield-icon mdui-btn mdui-btn-icon" onclick="if($('#search_bar').hasClass('mdui-textfield-expanded') && $('#search_bar_form>input').val()) $('#search_bar_form').submit();">
+          <i class="mdui-icon material-icons">info_outline</i>
+        </button>`;
   if (model.root_type < 2) {
     html += search_bar;
   }
