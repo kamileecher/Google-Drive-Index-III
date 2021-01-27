@@ -5604,7 +5604,7 @@ function nav(path) {
             <button class="mdui-textfield-close mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">close</i></button>
         </div>
         <button class="mdui-textfield-icon mdui-btn mdui-btn-icon" onclick="if($('#search_bar').hasClass('mdui-textfield-expanded') && $('#search_bar_form>input').val()) $('#search_bar_form').submit();">
-          <i class="mdui-icon material-icons">info_outline</i>
+          <i class="mdui-icon material-icons">help_outline</i>
         </button>`;
   if (model.root_type < 2) {
     html += search_bar;
